@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "243267254126",
+    "project_id": "aplloprivateltd",
+    "storage_bucket": "aplloprivateltd.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:243267254126:android:bd62f0c551c8a25480737f",
+        "android_client_info": {
+          "package_name": "com.example.aplloprivateltd"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "243267254126-k0in626vrrqt2468aglp2a2e2019otp5.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDwRdCmKhj1pYrrSrmYZKjo7YupWAT28ms"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "243267254126-k0in626vrrqt2468aglp2a2e2019otp5.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

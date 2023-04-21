@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="10dp"
+    android:background="#fff">
+
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="update details"
+        android:textSize="25sp"
+        android:gravity="center"
+        android:background="#4CAF50"
+        android:textColor="#0B0A0A"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="name"
+        android:layout_marginTop="5dp"
+        android:layout_marginBottom="5dp"
+        android:textSize="20sp"
+        android:gravity="center"
+        android:textColor="#0E0E0E"/>
+    <EditText
+        android:id="@+id/textUpdatename"
+        android:layout_width="match_parent"
+        android:layout_height="30sp"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+        android:hint="enter your name"
+        android:background="@drawable/txtarea"
+        android:gravity="center"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Department"
+        android:layout_marginTop="5dp"
+        android:layout_marginBottom="5dp"
+        android:textSize="20sp"
+        android:gravity="center"
+        android:textColor="#121111"/>
+
+    <EditText
+        android:id="@+id/textUpdateDepartment"
+        android:layout_width="match_parent"
+        android:layout_height="30sp"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+        android:background="@drawable/txtarea"
+        android:gravity="center"
+        android:hint="enter your department" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Email"
+        android:layout_marginTop="5dp"
+        android:layout_marginBottom="5dp"
+        android:textSize="20sp"
+        android:gravity="center"
+        android:textColor="#0B0100"/>
+    <EditText
+        android:id="@+id/textUpdateEmail"
+        android:layout_width="match_parent"
+        android:layout_height="30sp"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+        android:hint="enter your name"
+        android:background="@drawable/txtarea"
+        android:gravity="center"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Image Url"
+        android:layout_marginTop="5dp"
+        android:layout_marginBottom="5dp"
+        android:textSize="20sp"
+        android:gravity="center"
+        android:textColor="#090100"/>
+    <EditText
+        android:id="@+id/textUpdateImage"
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+        android:hint="image url"
+        android:background="@drawable/txtarea"
+        android:gravity="center"/>
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/updateBTn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="update"
+        android:gravity="center"
+        android:layout_margin="12dp"
+        android:textSize="20sp"
+        android:background="@drawable/rounded"/>
+
+</LinearLayout>
+
+
+
+</ScrollView>

@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    app:cardCornerRadius="6dp"
+    android:elevation="6dp"
+    app:cardUseCompatPadding="true">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="15dp">
+
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:src="@mipmap/ic_launcher"
+            android:id="@+id/img1"
+            app:civ_border_width="2dp"
+            app:civ_border_color="#ff000000"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/textName"
+            android:text="Empolyee  Name"
+            android:textSize="25sp"
+            android:textColor="#0B0A0A"
+            android:layout_toRightOf="@id/img1"
+            android:layout_marginLeft="10dp"/>
+
+
+        <TextView
+            android:id="@+id/departmentview"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+
+            android:text="department"
+            android:textSize="15sp"
+            android:textStyle="bold"
+            android:layout_below="@id/textName"
+            android:layout_toRightOf="@id/img1"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="10dp"/>
+
+        <TextView
+            android:id="@+id/empEmail"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Email id"
+            android:textSize="15sp"
+            android:textStyle="bold"
+            android:layout_below="@id/departmentview"
+            android:layout_toRightOf="@id/img1"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="10dp"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/empEmail">
+            <androidx.appcompat.widget.AppCompatButton
+                android:id="@+id/editBtn"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="Edit"
+                android:textSize="15sp"
+                android:textAllCaps="false"
+                android:layout_margin="5dp"/>
+
+            <androidx.appcompat.widget.AppCompatButton
+                android:id="@+id/deleteBtn"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="Delete"
+                android:textSize="15sp"
+                android:textAllCaps="false"
+                android:layout_margin="5dp"/>
+
+
+        </LinearLayout>
+
+
+    </RelativeLayout>
+
+
+
+</androidx.cardview.widget.CardView>

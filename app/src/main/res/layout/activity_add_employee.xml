@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".AddEmployeeActivity"
+    android:orientation="vertical"
+    android:layout_margin="5dp"
+    android:background="#fff">
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:background="#fff">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="add details"
+        android:textSize="25sp"
+        android:gravity="center"
+        android:background="#4CAF50"
+        android:textColor="#100201"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Name"
+        android:textStyle="bold"
+        android:layout_marginTop="5dp"
+        android:layout_marginBottom="5dp"
+        android:textSize="20sp"
+        android:gravity="center"
+        android:textColor="#100201"/>
+    <EditText
+        android:id="@+id/textAddname"
+        android:layout_width="match_parent"
+        android:layout_height="35sp"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+        android:hint="enter your name"
+        android:gravity="center"
+        android:background="@drawable/txtarea"
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Department"
+        android:textStyle="bold"
+        android:layout_marginTop="5dp"
+        android:layout_marginBottom="5dp"
+        android:textSize="20sp"
+        android:gravity="center"
+        android:textColor="#150302"/>
+
+        <EditText
+            android:id="@+id/textAddDepartment"
+            android:layout_width="match_parent"
+            android:layout_height="35sp"
+            android:layout_marginLeft="15dp"
+            android:layout_marginRight="15dp"
+            android:gravity="center"
+            android:hint="enter your department"
+            android:background="@drawable/txtarea"/>
+
+        <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Email"
+            android:textStyle="bold"
+        android:layout_marginTop="5dp"
+        android:layout_marginBottom="5dp"
+        android:textSize="20sp"
+        android:gravity="center"
+        android:textColor="#0C0101"/>
+    <EditText
+        android:id="@+id/textAddEmail"
+        android:layout_width="match_parent"
+        android:layout_height="35sp"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+        android:hint="enter your name"
+        android:background="@drawable/txtarea"
+        android:gravity="center"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Image Url"
+        android:textStyle="bold"
+        android:layout_marginTop="5dp"
+        android:layout_marginBottom="5dp"
+        android:textSize="20sp"
+        android:gravity="center"
+        android:textColor="#0C0100"/>
+    <EditText
+        android:id="@+id/textAddImage"
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+        android:hint="image url"
+        android:gravity="center"
+        android:background="@drawable/txtarea"/>
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/addEmployeeBTn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="add employee"
+        android:ems="8"
+        android:gravity="center"
+        android:layout_gravity="center"
+        android:layout_margin="15dp"
+        android:textSize="20sp"
+        android:background="@drawable/rounded"/>
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/addActvityBackBTn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="back"
+        android:ems="5"
+        android:gravity="center"
+        android:layout_gravity="center"
+        android:layout_margin="5dp"
+        android:textSize="20sp"
+        android:background="@drawable/rounded"/>
+    </LinearLayout>
+
+</ScrollView>
